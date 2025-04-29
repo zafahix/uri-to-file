@@ -25,6 +25,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace "in.lazymanstudios.uri_to_file"
     compileSdkVersion 33
 
     sourceSets {
